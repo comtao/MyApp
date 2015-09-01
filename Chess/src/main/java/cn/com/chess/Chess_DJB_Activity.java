@@ -27,9 +27,6 @@ import static cn.com.chess.ViewConstant.yZoom;
 
 enum WhichView {WELCOME_VIEW, GAME_VIEW}
 
-/**
- * 象棋首页
- */
 public class Chess_DJB_Activity extends Activity {
     GameView gameView;
     WhichView wv;
